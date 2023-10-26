@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-/* Box sizing rules */
+/* Custom Properties */
 :root {
   --clr-neutral-300: hsl(212, 45%, 89%);
   --clr-neutral-100: hsl(0, 0%, 100%);
@@ -21,6 +21,8 @@
   --border-image: var(--border-radius) - var(--padding);
 }
 
+/*Utilities Classes*/
+
 .clr-primary-100 {color: var(--clr-primary-100);}
 
 .fs-heading {
@@ -30,7 +32,7 @@
 }
 
 
-
+/*Reset https://piccalil.li/blog/a-modern-css-reset*/
 *,
 *::before,
 *::after {
